@@ -29,17 +29,18 @@ a:hover {
 body {
     font-family: "Open Sans",Meiryo,sans-serif;
     min-width: 900px;
+/*
     background: rgba(253,253,253,1);
-    background: #000;
+*/
 }
 
 /* navigation design */
 #globalheader-container {
     color: #000;
     background: transparent;
-    opacity: 0.8;
+    background: rgba(255,255,255,0.5);
     width: 100%;
-    position: fixed;
+    position: relative;
     top: 0;
 
     -webkit-transition: opacity 0.3s ease-out;
@@ -48,25 +49,13 @@ body {
     -o-transition: opacity 0.3s ease-out;
     transition: opacity 0.3s ease-out;
 }
-
-#globalheader-container:hover {
-	opacity: 1;
-}
-
-/* title design */
-#blog-title {
-    width: 1060px;
-    text-align: center;
-    margin: auto;
-    padding: 67px 0 30px;
-}
-
 /* container design */
 #content {
     width: 1100px;
     margin: auto;
     padding: 40px 50px 50px;
     background: #fff;
+    border-radius: 20px;
 }
 
 #container a {
@@ -95,7 +84,6 @@ body {
 }
 
 .entry-inner {
-
 /*	padding-top: 20px;*/
 }
 
@@ -106,9 +94,27 @@ body {
 }
 
 /* title design */
+#blog-title {
+    width: 1100px;
+    text-align: left;
+    margin: 0 auto 0;
+    padding: 30px 50px;
+/*    background: #fff;*/
+}
+
 #title {
     font-size: 210%;
     font-family: "Open Sans",Meiryo,sans-serif;
+}
+
+.header-image-enable #blog-title {
+	padding: 30px 0;
+	background: #fff;
+}
+
+.header-image-enable #blog-title-inner {
+	padding: 50px 0;
+	background: #fff;
 }
 
 .header-image-enable #title {
@@ -136,7 +142,7 @@ body {
 
 /* breadcrumb design */
 .breadcrumb {
-    width: 800px;
+    width: 1050px;
     margin: auto;
 
     padding: 10px 0;
@@ -165,17 +171,24 @@ body {
     font-weight: normal;
     font-family: "Open Sans",Meiryo,sans-serif;
     margin: 0.2em 0;
+    /*
+    margin-left: -20px;
+    padding-left: 10px;
+    height: 50px;
+    line-height: 50px;
+    border-left: solid 5px #d84515;
+    */
 }
 
 .entry-title a {
-    color: #000;
+    color: #d84515;
 }
 
 .entry-header {
     position: relative;
     margin-bottom: 0.5em;
     padding-bottom: 5px;
-    border-bottom: solid 1px #ddd;
+    border-bottom: solid 1px #bbb;
 }
 
 /* edit button */
@@ -204,6 +217,20 @@ body {
     left: 80px;
 }
 
+/* category icon */
+.page-index .categories::before , .page-entry .categories::before,.page-search .categories::before {
+    content: "";
+	display: inline-block;
+	width: 13px;
+	height: 13px;
+	position: relative;
+	bottom: -2px;
+	background: url(http://img.f.hatena.ne.jp/images/fotolife/p/platism/20130408/20130408152851.png) no-repeat bottom left;
+	background-size: contain;
+	padding-right: 2px;
+	opacity: 0.8;
+}
+
 .categories a {
     color: #666;
     font-size: 80%;
@@ -215,7 +242,7 @@ body {
     color: #000; 
     margin: 0.8em 0;
     line-height: 1.8;
-    font-size: 95%;
+    font-size: 100%;
     font-family: "Open Sans",Meiryo,sans-serif;
 }
 
@@ -290,18 +317,18 @@ a.keyword:hover {
 
 .entry-content table {
     border-collapse: collapse;
-    border: solid 1px #000;
+    border: solid 1px #999;
     font-size: 90%;
 }
 
 .entry-content th {
-    background: #eb7813;
-    color: #fff;
-    font-weight: normal;
+    background: #ccc;
+    color: #000;
+    font-weight: bold;
 }
 
 .entry-content th, .entry-content td {
-    border: solid 1px #000;
+    border: solid 1px #999;
     padding: 4px 10px;
 }
 
@@ -452,11 +479,11 @@ a.keyword:hover {
 .hatena-module {
     width: 250px;
     font-weight: 300;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .hatena-module a {
-    color: #000;
+    color: #d84515;
 }
 
 .hatena-module a:hover {
@@ -467,7 +494,7 @@ a.keyword:hover {
     font-size: 110%;
     color: #000;
     padding-bottom: 10px;
-    border-bottom: dotted 1px #000;
+    border-bottom: solid 1px #bbb;
     margin-bottom: 10px;
 }
 
@@ -507,6 +534,7 @@ a.keyword:hover {
     display: block;
     float:left;
 */
+	font-size: 120%;
 }
 
 .profile-description {
@@ -517,7 +545,7 @@ a.keyword:hover {
 
 /* Searchbox Design */
 .search-module-input {
-    width: 150px;
+    width: 180px;
     height: 25px;
     padding: 3px 5px;
     border: solid 1px #aaa;
@@ -585,7 +613,7 @@ a.keyword:hover {
 }
 
 .hatena-module-archive li a:hover, .hatena-module-category li a:hover {
-	background: #a04910;
+	opacity: 0.8;
 	text-decoration: none;
 }
 
@@ -617,7 +645,7 @@ a.keyword:hover {
 
 .page-entry .pager-next a,.page-entry .pager-prev a, .page-archive .pager-next a, .page-archive .pager-prev a {
 	display: block;
-	width: 395px;
+	width: 345px;
 	text-align: center;
 	background: transparent;
 	float: left;
@@ -626,7 +654,7 @@ a.keyword:hover {
     border-top: solid 1px #ddd;
     border-bottom: solid 1px #ddd;
     font-size: 90%;
-    color: #555;
+    color: #b76229;
 }
 
 .page-entry .pager-next a, .page-archive .pager-next a {
@@ -645,7 +673,7 @@ a.keyword:hover {
     border-top: solid 1px #ddd;
     border-bottom: solid 1px #ddd;
     font-size: 90%;
-    color: #555;
+    color: #b76229;
 }
 
 .pager-next a:hover, .pager-prev a:hover {
@@ -784,23 +812,3 @@ a.keyword:hover {
 	bottom: 0;*/
 }
 
-/* category icon */
-.page-index .categories::before , .page-entry .categories::before,.page-search .categories::before {
-    content: "";
-	display: inline-block;
-	width: 13px;
-	height: 13px;
-	position: relative;
-	bottom: -2px;
-	background: url(http://img.f.hatena.ne.jp/images/fotolife/p/platism/20130408/20130408152851.png) no-repeat bottom left;
-	background-size: contain;
-	padding-right: 2px;
-	opacity: 0.8;
-}
-
-#globalheader-container {
-    position: relative;
-}
-#blog-title {
-	padding: 30px 0;
-}
