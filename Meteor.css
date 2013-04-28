@@ -162,7 +162,10 @@ body {
     font-family: 'Open Sans',cursive;
     font-size: 80%;
     font-weight: 300;
+/*
     color: #666;
+*/
+	color: #d84515;
 }
 
 /* entry title design */
@@ -211,14 +214,14 @@ body {
     text-decoration: none;
 }
 
-.page-index .categories , .page-entry .categories,.page-search .categories {
+.page-index .categories , .page-entry .categories,.page-search .categories, .page-category-category_name .categories, .page-entries-year-month-day .categories {
     position: absolute;
     top:  0px;
     left: 80px;
 }
 
 /* category icon */
-.page-index .categories::before , .page-entry .categories::before,.page-search .categories::before {
+.page-index .categories::before , .page-entry .categories::before,.page-search .categories::before, .page-category-category_name .categories::before, .page-entries-year-month-day .categories::before {
     content: "";
 	display: inline-block;
 	width: 13px;
@@ -232,7 +235,10 @@ body {
 }
 
 .categories a {
+/*
     color: #666;
+*/
+	color: #d84515;
     font-size: 80%;
     font-weight: 300;
 }
@@ -242,7 +248,7 @@ body {
     color: #000; 
     margin: 0.8em 0;
     line-height: 1.8;
-    font-size: 100%;
+    font-size: 90%;
     font-family: "Open Sans",Meiryo,sans-serif;
 }
 
@@ -251,7 +257,10 @@ body {
 }
 
 .entry-content a {
+/*
     color: #2d6bc4;
+*/
+	color: #d84515;
 }
 
 .entry-content a:hover {
@@ -288,9 +297,17 @@ a.keyword:hover {
 
 
 .entry-content blockquote {
+/*
     background: #e6d9e2;
     font-size: 90%;
     padding: 20px;
+*/
+    font-size: 90%;
+    margin: 0 20px;
+	padding: 20px;
+	background: rgba(245,245,245,0.8);
+	color: #222;
+	border-left: solid 7px #999;
 }
 
 .entry-content blockquote p {
@@ -480,6 +497,7 @@ a.keyword:hover {
     width: 250px;
     font-weight: 300;
     margin-bottom: 30px;
+    font-size: 90%;
 }
 
 .hatena-module a {
@@ -534,7 +552,7 @@ a.keyword:hover {
     display: block;
     float:left;
 */
-	font-size: 120%;
+	font-size: 100%;
 }
 
 .profile-description {
@@ -545,7 +563,7 @@ a.keyword:hover {
 
 /* Searchbox Design */
 .search-module-input {
-    width: 180px;
+    width: 250px;
     height: 25px;
     padding: 3px 5px;
     border: solid 1px #aaa;
@@ -553,6 +571,7 @@ a.keyword:hover {
 }
 
 .search-module-button {
+/*
 	height: 25px;
     padding: 0 10px;
     line-height: 25px;
@@ -571,6 +590,8 @@ a.keyword:hover {
     -ms-transition: 0.3s ease-out;
     -o-transition: 0.3s ease-out;
     transition: 0.3s ease-out;
+*/
+    display: none;
 }
 
 .search-module-button:hover {
@@ -608,7 +629,7 @@ a.keyword:hover {
 	padding: 0 6px;
 	line-height: 25px;
 	height: 25px;
-	font-size: 80%;
+	font-size: 90%;
 	font-weight: 300;
 }
 
@@ -651,8 +672,8 @@ a.keyword:hover {
 	float: left;
 	margin: auto;
     padding: 12px 0;
-    border-top: solid 1px #ddd;
-    border-bottom: solid 1px #ddd;
+    border-top: solid 1px #bbb;
+    border-bottom: solid 1px #bbb;
     font-size: 90%;
     color: #b76229;
 }
@@ -670,8 +691,8 @@ a.keyword:hover {
 
 	margin: auto;
     padding: 12px 0;
-    border-top: solid 1px #ddd;
-    border-bottom: solid 1px #ddd;
+    border-top: solid 1px #bbb;
+    border-bottom: solid 1px #bbb;
     font-size: 90%;
     color: #b76229;
 }
@@ -708,7 +729,10 @@ a.keyword:hover {
 }
 
 .page-archive #main .entry-title {
+/*
     color: #2d6bc4;
+*/
+	color: #d84515;
 }
 
 .page-archive #main .categories::before {
