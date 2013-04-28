@@ -16,6 +16,6 @@ Excaliburのカラム幅違い
 ###Andante
 Giftのサイドバー表示関連を改善したテーマ
 ###Meteor
-作成中のテーマ。Yunomiの上位互換の予定。
+作成中のテーマ。Andanteをベースとして2カラムに変更。
 ##License
 Licensed under the [MIT License](http://opensource.org/licenses/mit-license.php)
