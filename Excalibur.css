@@ -32,7 +32,7 @@ body {
     font-family: "Open Sans","Helvetica Neue",Arial,"Hiragino Kaku Gothic Pro",Meiryo,"MS PGothic",sans-serif;
 }
 
-/*ナビゲーション*/
+/* navigation design */
 #globalheader-container {
     color: #fff;
     background: url(http://img.f.hatena.ne.jp/images/fotolife/p/platism/20130223/20130223212637.png);
@@ -40,16 +40,7 @@ body {
     width 100%;
 }
 
-/* ヘッダデザイン */
-
-/*
-#blog-title {
-    width: 100%;
-    text-align: center;
-    margin: auto;
-    padding: 20px 20px;
-}*/
-
+/* title design */
 #blog-title {
     width: 750px;
     text-align: center;
@@ -61,7 +52,7 @@ body {
 	border-radius: 10px;
 }
 
-/* コンテナレイアウト */
+/* container design */
 #content {
     width: 100%;
     margin: auto;
@@ -90,7 +81,7 @@ body {
     border-radius: 10px;
 }
 
-/* タイトルデザイン */
+/* title design */
 #title {
     font-size: 180%;
     color: #fff;
@@ -131,7 +122,7 @@ body {
     padding: 60px;
 }
 
-/* パンくず */
+/* breadcrumb design */
 .breadcrumb {
     width: 750px;
     margin: auto;
@@ -144,7 +135,7 @@ body {
     color: #ff3399;
 }
 
-/* カレンダーレイアウト */
+/* calender design */
 .date a {
     display: block;
     
@@ -206,7 +197,7 @@ body {
     display: none;
 }
 
-/* 記事見出し */
+/* entry title design */
 .entry-title {
     font-size: 150%;
     font-weight: bold;
@@ -224,7 +215,7 @@ body {
     margin-bottom: 0.5em;
 }
 
-/* 編集ボタン */
+/* edit button */
 .entry-header-menu a {
     display: block;
     position: absolute;
@@ -260,7 +251,7 @@ body {
   content: '\25B8';
 }
 
-/* 記事デザイン */
+/* entry design */
 .entry {
     padding-bottom: 20px;
     margin-bottom: 20px;
@@ -440,7 +431,7 @@ a.keyword:hover {
     margin-bottom: 10px;
 }
 
-/* コメント欄 */
+/* comment design */
 
 .entry-comment {
 	margin-top: 8px;
@@ -520,7 +511,7 @@ a.keyword:hover {
 }
 
 
-/* サイドバー共通 */
+/* common sidebar */
 #box2 {
     width: 100%;
     height: auto;
@@ -573,7 +564,7 @@ a.keyword:hover {
     font-size: 90%;
 }
 
-/* エロゲバナー用 */
+/* eroge bunner optimize */
 .hatena-module-body a .erg {
     display: block;
     margin: auto;
@@ -589,7 +580,7 @@ a.keyword:hover {
     padding: 0.3em 0;
 }
 
-/* プロフィール */
+/* profile design */
 .hatena-module-profile .profile-icon {
     display: block;
     margin: auto;
@@ -612,7 +603,7 @@ a.keyword:hover {
     text-align: center;
 }
 
-/* 検索ボックス */
+/* searchbox design */
 .search-module-input {
     width: 150px;
     height: 25px;
@@ -641,17 +632,12 @@ a.keyword:hover {
     box-shadow: 0 0 5px #fff;
 }
 
-/* ページングボタン */
+/* pager button */
 .pager-prev a {
     color: #ff3399;
     text-shadow: 0 0 1px #999;
     padding: 0 5px;
 }
-
-/*
-.pager-prev a::after {
-    content: "\25b6";
-}*/
 
 .pager-next a {
     color: #ff3399;
@@ -659,12 +645,7 @@ a.keyword:hover {
     padding: 0 5px;
 }
 
-/*
-.pager-next a::before {
-    content: "\25c0";
-}*/
-
-/* アーカイブページ */
+/* archive design */
 .page-archive #main a {
     color: #4c4c4c;
 }
@@ -708,8 +689,7 @@ a.keyword:hover {
     color: #e3343a;
 }
 
-
-/* height対応 */
+/* corresponding problem of height */
 #content::after {
     content: " ";
     display: block;
@@ -717,7 +697,6 @@ a.keyword:hover {
     visibility: hidden;
     clear: both;
 }
-
 
 /* footer */
 #footer {
@@ -747,11 +726,7 @@ a.keyword:hover {
     border-radius: 50%;
 }
 
-
-
-
-
-/* スクロールボタン */
+/* scroll button design */
 #page-top {
     width: 40px;
 	height: 40px;

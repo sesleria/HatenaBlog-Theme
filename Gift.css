@@ -32,7 +32,7 @@ body {
     background: #f6f6f6;
 }
 
-/*ナビゲーション*/
+/*  navigation design */
 #globalheader-container {
     color: #fff;
     background: #333;
@@ -52,7 +52,7 @@ body {
 	opacity: 1;
 }
 
-/* 見出しデザイン */
+/* title design */
 #blog-title {
     width: 800px;
     text-align: center;
@@ -60,7 +60,7 @@ body {
     padding: 67px 0 30px;
 }
 
-/* コンテナレイアウト */
+/* container design */
 #content {
     width: 100%;
     margin: auto;
@@ -103,7 +103,7 @@ body {
 
 }
 
-/* タイトルデザイン */
+/* title design */
 #title {
     font-size: 210%;
     font-family: "Open Sans",Meiryo,sans-serif;
@@ -132,7 +132,7 @@ body {
     padding: 60px;
 }
 
-/* パンくず */
+/* breadcrumb design */
 .breadcrumb {
     width: 800px;
     margin: auto;
@@ -149,7 +149,7 @@ body {
 	content: "✱";
 }
 
-/* カレンダーレイアウト */
+/* calender design */
 .date a {
     font-family: 'Open Sans',cursive;
     font-size: 80%;
@@ -157,7 +157,7 @@ body {
     color: #666;
 }
 
-/* 記事見出し */
+/* entry title design */
 .entry-title {
     font-size: 150%;
     font-weight: bold;
@@ -175,7 +175,7 @@ body {
     padding-bottom: 5px;
 }
 
-/* 編集ボタン */
+/* edit button */
 .entry-header-menu a {
     display: block;
     position: absolute;
@@ -207,7 +207,7 @@ body {
     font-weight: 300;
 }
 
-/* 記事デザイン */
+/* entry design */
 .entry-content {
     color: #000; 
     margin: 0.8em 0;
@@ -446,7 +446,7 @@ a.keyword:hover {
 }
 
 
-/* サイドバー共通 */
+/* common sidebar */
 #box2 {
     width: 200px;
     height: 200px;
@@ -619,18 +619,6 @@ a.keyword:hover {
     font-size: 90%;
 }
 
-/* エロゲバナー用 */
-.hatena-module-body a .erg {
-    display: block;
-    margin: auto;
-    border-radius: 5px;
-    box-shadow: 0 0 10px #ccc;
-}
-
-.hatena-module-body:hover a .erg {
-    opacity: 0.8;
-}
-
 .hatena-urllist li {
     padding: 0.3em 0;
 }
@@ -640,8 +628,7 @@ a.keyword:hover {
   content: '\25B8  ';
 }
 
-
-/* プロフィール */
+/* profile design */
 .hatena-module-profile .profile-icon {
     display: block;
     margin: auto;
@@ -654,17 +641,13 @@ a.keyword:hover {
     text-align: center;
 }
 
-.hatena-follow-button {
-	/*	margin-left: 53px; */
-}
-
 .profile-description {
     margin: 0.8em 0;
     color: #fff;
     text-align: left;
 }
 
-/* 検索ボックス */
+/* searchbox design */
 .search-module-input {
     width: 150px;
     height: 25px;
@@ -718,7 +701,6 @@ a.keyword:hover {
 	width: 300px;
 }
 
-
 /* Comments */
 .hatena-module-recent-comments {
 	font-size: 90%;
@@ -761,7 +743,6 @@ a.keyword:hover {
 }
 
 /* Pager Button */
-
 .pager {
 	width: 800px;
 	margin: auto;
@@ -821,7 +802,7 @@ a.keyword:hover {
 	background: #dbcccc;
 }
 
-/* アーカイブページ */
+/* archive page design */
 .page-archive #main {
     padding-bottom: 40px;
 }
@@ -896,7 +877,7 @@ a.keyword:hover {
 }
 
 
-/* height対応 */
+/* corresponding problem of height */
 #content::after {
     content: " ";
     display: block;
@@ -905,8 +886,7 @@ a.keyword:hover {
     clear: both;
 }
 
-
-/* footer */
+/* footer design */
 #footer {
     clear: both;
     text-align: center;
@@ -929,7 +909,6 @@ a.keyword:hover {
 #footer a:hover {
     text-decoration: underline;
 }
-
 
 #footer img {
     border-radius: 50%;

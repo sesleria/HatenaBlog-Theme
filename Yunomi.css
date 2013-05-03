@@ -14,11 +14,9 @@ img {
 	border:none;
 }
 
-
 ol, ul{
 	list-style: none;
 }
-
 
 a {
 	text-decoration: none;
@@ -32,7 +30,7 @@ body {
     font-family: "Open Sans","Helvetica Neue",Arial,"Hiragino Kaku Gothic Pro",Meiryo,"MS PGothic",sans-serif;
 }
 
-/* Navigation */
+/* navigation design */
 #globalheader-container {
     color: #fff;
     background: #444;
@@ -107,7 +105,7 @@ body {
     padding: 60px;
 }
 
-/* breadcrumb */
+/* breadcrumb design */
 .breadcrumb {
     width: 1000px;
     margin: auto;
@@ -154,7 +152,7 @@ body {
     margin-bottom: 0.5em;
 }
 
-/* editing button */
+/* edit button */
 .entry-header-menu a {
     display: block;
     position: absolute;
@@ -520,8 +518,7 @@ a.keyword:hover {
     margin-bottom: 10px;
 }
 
-
-/* height support */
+/* corresponding problem of height */
 #content::after {
     content: " ";
     display: block;
@@ -529,7 +526,6 @@ a.keyword:hover {
     visibility: hidden;
     clear: both;
 }
-
 
 /* footer */
 #footer {

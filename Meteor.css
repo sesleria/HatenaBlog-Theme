@@ -99,7 +99,7 @@ body {
     text-align: left;
     margin: 0 auto 0;
     padding: 30px 50px;
-/*    background: #fff;*/
+/*  background: #fff; */
 }
 
 #title {
@@ -541,7 +541,7 @@ a.keyword:hover {
   content: '\25B8  ';
 }*/
 
-/* Profile Design */
+/* profile design */
 .hatena-module-profile .profile-icon {
     margin: 0 10px 10px 0;
     float: left;
@@ -702,7 +702,7 @@ a.keyword:hover {
 	background: #efefef;
 }
 
-/* アーカイブページ */
+/* archive page design */
 .page-archive #main {
     padding-bottom: 40px;
 }
@@ -779,7 +779,6 @@ a.keyword:hover {
 	display: block;
 }
 
-
 /* about */
 .page-about #main dd {
     margin-bottom: 10px;
@@ -790,8 +789,7 @@ a.keyword:hover {
     color: #e3343a;
 }
 
-
-/* height対応 */
+/* corresponding problem of height */
 #content::after {
     content: " ";
     display: block;
@@ -799,7 +797,6 @@ a.keyword:hover {
     visibility: hidden;
     clear: both;
 }
-
 
 /* footer */
 #footer {
@@ -825,7 +822,6 @@ a.keyword:hover {
     text-decoration: underline;
 }
 
-
 #footer img {
     border-radius: 50%;
 }
@@ -835,4 +831,3 @@ a.keyword:hover {
 	width: 100%;
 	bottom: 0;*/
 }
-

@@ -75,7 +75,7 @@ body {
     background-color: #fff;
 }
 
-/* タイトルデザイン */
+/* title design */
 #title {
     font-size: 210%;
     color: #fff;
@@ -96,7 +96,6 @@ body {
     color: blue;
 }
 
-
 #blog-description {
     margin-top: 5px;
     font-size: 90%;
@@ -112,7 +111,7 @@ body {
     padding: 60px;
 }
 
-/* パンくず */
+/* breadcrumb design */
 .breadcrumb {
     width: 800px;
     margin: auto;
@@ -125,7 +124,7 @@ body {
     color: #000;
 }
 
-/* カレンダーレイアウト */
+/* calender design */
 .date a {
     font-family: 'Open Sans',cursive;
     font-size: 80%;
@@ -136,7 +135,7 @@ body {
     color: blue;
 }
 
-/* 記事見出し */
+/* entry title design */
 .entry-title {
     font-size: 150%;
     font-weight: bold;
@@ -159,7 +158,7 @@ body {
     border-bottom: solid 1px #999;
 }
 
-/* 編集ボタン */
+/* edit button */
 .entry-header-menu a {
     display: block;
     position: absolute;
@@ -350,7 +349,7 @@ a.keyword:hover {
     margin-bottom: 10px;
 }
 
-/* コメント欄 */
+/* comment design */
 .entry-comment {
 	margin-top: 8px;
     margin-bottom: 8px;
@@ -434,8 +433,7 @@ a.keyword:hover {
 	box-shadow: 0 0 2px #999;
 }
 
-
-/* サイドバー共通 */
+/* common sidebar */
 #box2 {
     width: 50px;
     height: 50px;
@@ -534,18 +532,6 @@ a.keyword:hover {
     font-size: 90%;
 }
 
-/* エロゲバナー用 */
-.hatena-module-body a .erg {
-    display: block;
-    margin: auto;
-    border-radius: 5px;
-    box-shadow: 0 0 10px #ccc;
-}
-
-.hatena-module-body:hover a .erg {
-    opacity: 0.8;
-}
-
 .hatena-urllist li {
     padding: 0.3em 0;
 }
@@ -558,7 +544,7 @@ a.keyword:hover {
 	overflow: hidden;
 }
 
-/* プロフィール */
+/* profile design */
 .hatena-module-profile .profile-icon {
     display: block;
     margin: auto;
@@ -575,18 +561,13 @@ a.keyword:hover {
     text-align: center;
 }
 
-/*
-.hatena-follow-button {
-    margin-left: 67px;
-}*/
-
 .profile-description {
     margin: 0.8em 0;
     color: #000;
     text-align: center;
 }
 
-/* 検索ボックス */
+/* searchbox design */
 .search-module-input {
     width: 150px;
     height: 25px;
@@ -615,7 +596,7 @@ a.keyword:hover {
     box-shadow: 0 0 5px #fff;
 }
 
-/* ページングボタン */
+/* pager design */
 .pager-prev a {
     color: #2d6bc4;
     text-shadow: 0 0 1px #999;
@@ -638,7 +619,7 @@ a.keyword:hover {
     content: "\25c0";
 }*/
 
-/* アーカイブページ */
+/* archive design */
 .page-archive #main a {
     color: #4c4c4c;
 }
@@ -682,8 +663,7 @@ a.keyword:hover {
     color: #e3343a;
 }
 
-
-/* height対応 */
+/* corresponding problem of height */
 #content::after {
     content: " ";
     display: block;
@@ -691,7 +671,6 @@ a.keyword:hover {
     visibility: hidden;
     clear: both;
 }
-
 
 /* footer */
 #footer {
