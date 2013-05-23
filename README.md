@@ -17,5 +17,7 @@ Excaliburのカラム幅違い
 Giftのサイドバー表示関連を改善したテーマ
 ###Meteor
 作成中のテーマ。Andanteをベースとして2カラムに変更。
+###Module
+2カラムのモダンな感じのテーマ。
 ##License
 Licensed under the [MIT License](http://opensource.org/licenses/mit-license.php)
