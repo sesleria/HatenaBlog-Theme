@@ -726,14 +726,12 @@ a.keyword:hover {
 }
 
 /* アーカイブページ */
-.page-archive #main {
+.page-archive #main-inner {
 	padding: 20px 25px 25px;
 	background: #fff;
     position: relative;
     margin-bottom: 30px;
-}
-
-.page-archive #main-inner {
+    
     padding-bottom: 20px;
 }
 
@@ -791,7 +789,6 @@ a.keyword:hover {
 }
 
 /* about */
-
 .page-about #main dt {
 	padding: 0 0 0.4em;
 	margin: 0 0 0.4em 0;
@@ -845,14 +842,6 @@ a.keyword:hover {
 
 #footer img {
     border-radius: 50%;
-}
-
-.page-archive #footer, .page-about #footer{
-/*
-	position: fixed;
-	width: 100%;
-	bottom: 0;
-*/
 }
 
 #top-editarea, #bottom-editarea {
