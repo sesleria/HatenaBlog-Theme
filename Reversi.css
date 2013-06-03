@@ -183,7 +183,9 @@ body {
     font-size: 80%;
 }
 
-.categories {
+/* カテゴリ未設定の時に表示させない！ */
+.no-categories {
+	display: none;
 }
 
 .categories a {
