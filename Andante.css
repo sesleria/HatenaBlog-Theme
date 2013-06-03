@@ -194,6 +194,11 @@ body {
     left: 80px;
 }
 
+/* カテゴリ未設定の時に表示させない！ */
+.no-categories {
+	display: none;
+}
+
 .categories a {
     color: #666;
     font-size: 80%;
