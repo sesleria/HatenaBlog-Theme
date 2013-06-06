@@ -538,6 +538,10 @@ a.keyword:hover {
     padding: 0.3em 0;
 }
 
+.archive-module-month {
+	list-style-type: none !important;
+}
+
 /* 改行防止 */
 .hatena-module-recent-entries li {
 	word-wrap: normal; /* for IE */

@@ -686,7 +686,7 @@ a.keyword:hover {
 }
 
 .hatena-module-archive {
-	width: 350px;
+	width: 200px;
 }
 
 .hatena-module-category {
@@ -718,14 +718,18 @@ a.keyword:hover {
 	overflow: hidden;
 }
 
+.archive-module-month {
+	list-style-type: none !important;
+}
+
 /* Tag Cloud */
-.hatena-module-archive li, .hatena-module-category li  {
+.hatena-module-category li  {
 	display: inline-block;
 	margin-bottom: 2px;
 
 }
 
-.hatena-module-archive li a, .hatena-module-category li a {
+.hatena-module-category li a {
 	display: inline-block;
 	margin-left: 5px;
 	background: #d47c41;
@@ -737,7 +741,7 @@ a.keyword:hover {
 	font-weight: 300;
 }
 
-.hatena-module-archive li a:hover, .hatena-module-category li a:hover {
+.hatena-module-category li a:hover {
 	background: #a04910;
 	text-decoration: none;
 }

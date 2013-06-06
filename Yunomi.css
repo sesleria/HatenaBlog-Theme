@@ -434,6 +434,14 @@ a.keyword:hover {
   content: '\25B8';
 }
 
+.hatena-urllist .archive-module-year::before {
+  content: '';
+}
+
+.archive-module-month {
+	list-style-type: none !important;
+}
+
 /* profile design */
 .profile-icon {
     box-shadow: 0 1px 4px #999;
