@@ -19,5 +19,7 @@ Giftのサイドバー表示関連を改善したテーマ
 作成中のテーマ。Andanteをベースとして2カラムに変更。
 ###Module
 2カラムのモダンな感じのテーマ。
+###Mistilteinn
+2カラムのフラットな感じのテーマ。
 ##License
 Licensed under the [MIT License](http://opensource.org/licenses/mit-license.php)

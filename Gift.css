@@ -787,7 +787,7 @@ a.keyword:hover {
 }
 
 /* Index-Page */
-.page-index .pager-next a , .page-search .pager-next a {
+.page-index .pager-next a, .page-search .pager-next a ,.page-category-category_name .pager-next a, .page-entries-year-month-day .pager-next a {
 	display: block;
 	width: 800px;
 	text-align: center;
