@@ -763,16 +763,6 @@ margin: 0;
 	padding: 10px 15px;
 }
 
-.hatena-module:last-of-type {
-	-webkit-perspective: 1000px;
-	-moz-perspective: 1000px;
-	-o-perspective: 1000px;
-	-ms-perspective: 1000px;
-	perspective: 1000px;
-	text-align: center;
-}
-
-
 /* For hentai game's banner */
 .hatena-module-body a .erg {
 	padding: 10px;
@@ -800,10 +790,6 @@ margin: 0;
 
 .hatena-module-body:hover a .erg {
 	opacity: 0.8;
-}
-
-.hatena-module-recent-comments .hatena-urllist li {
-	padding: 0.4em 0;
 }
 
 /* archive & link */
@@ -835,7 +821,6 @@ margin: 0;
 }
 
 .hatena-module-recent-comments .hatena-urllist li {
-	padding: 0;
 	position: relative;
 
 	-webkit-transition: 0.2s ease-in-out;
