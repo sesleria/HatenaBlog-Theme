@@ -154,7 +154,7 @@ body {
 	display: none;
 }
 
-.date .date-month::before, .date .date-day::before {
+.date .date-month:before, .date .date-day:before {
 	content: " / ";
 }
 
@@ -225,6 +225,7 @@ body {
 	font-size: 70%;
 	display: inline-block;
 	padding: 3px 6px;
+	background: #999;
 	background: rgba(0,0,0,0.1);
 	color: #fff;
 }
@@ -264,6 +265,7 @@ a.keyword:hover {
 	margin: 1em 0 0.5em 0;
 	padding: 4px 10px;
 	border-left: solid 10px #c0392b;
+	background: #fafafa;
 	background: rgba(250,250,250,1);
 }
 
@@ -283,13 +285,14 @@ a.keyword:hover {
 	padding: 2px 0px;
 }
 
-.entry-content h5::before {
+.entry-content h5:before {
 	content: "■ ";
 	color: #c0392b;
 }
 
 .entry-content blockquote {
 	padding: 20px 45px;
+	background: #efefef;
 	background: rgba(245,245,245,0.8);
 	color: #333;
 	position: relative;
@@ -301,24 +304,26 @@ a.keyword:hover {
 	font-size: 90%;
 }
 
-.entry-content blockquote::before {
+.entry-content blockquote:before {
 	content: "“";
 	font-family: serif;
 	position: absolute;
 	top:0;
 	left:0;
 	font-size: 600%;
+	color: #c8c8c8;
 	color: rgba(200,200,200,1);
 	line-height: 1em;
 }
 
-.entry-content blockquote::after {
+.entry-content blockquote:after {
 	content: "”";
 	font-family: serif;
 	position: absolute;
 	bottom:0;
 	right:0;
 	font-size: 600%;
+	color: #c8c8c8;
 	color: rgba(200,200,200,1);
 	line-height: 0;
 }
@@ -492,7 +497,7 @@ margin: 0;
 
 .comment-user-name {
 	margin: 0 0 10px 0;
-	font-weight: bold;
+	font-weight: normal;
 }
 
 .comment-metadata {
@@ -540,13 +545,13 @@ margin: 0;
 	font-weight: bold;
 	padding: 4px 10px;
 	border-left: solid 10px #c0392b;
+	background: #fafafa;
 	background: rgba(250,250,250,1);
 }
 .comment-content h4 {
 	margin: 1em 0 0.5em 0;
 	font-size: 120%;
 	font-weight: bold;
-	
 	padding: 2px 15px;
 	border-left: solid 5px #c0392b;
 	border-bottom: dashed 1px #c0392b;
@@ -558,7 +563,7 @@ margin: 0;
 	font-weight: bold;
 }
 
-.comment-content h5::before {
+.comment-content h5:before {
 	content: "■ ";
 	color: #c0392b;
 }
@@ -576,7 +581,7 @@ margin: 0;
 	font-size: 90%;
 }
 
-.comment-content blockquote::before {
+.comment-content blockquote:before {
 	content: "“";
 	font-family: serif;
 	position: absolute;
@@ -587,7 +592,7 @@ margin: 0;
 	line-height: 1em;
 }
 
-.comment-content blockquote::after {
+.comment-content blockquote:after {
 	content: "”";
 	font-family: serif;
 	position: absolute;
@@ -674,8 +679,6 @@ margin: 0;
 	background: #efefef;
 }
 
-
-
 .entry-footer .comment-box {
 	margin: 0.8em 0;
 }
@@ -684,9 +687,6 @@ margin: 0;
 	display: block;
 	padding: 8px 0;
 	color: #fff;
-	/*
-	background: #16a085;
-	*/
 	background: #999;
 	text-decoration: none;
 	text-align: center;
@@ -700,22 +700,16 @@ margin: 0;
 	opacity: 0.8;
 }
 
-
 /* common sidebar */
 #box2 {
 	width: 300px;
 	height: auto;
-
 	float: right;
-
 	position: relative;
 }
 
 .hatena-module {
 	width: 300px;
-	/*
-	padding: 15px 20px 20px;
-	*/
 	background: #fff;
 	font-size: 90%;
 	margin-bottom: 15px;
@@ -756,7 +750,7 @@ margin: 0;
 	opacity: 0.8;
 }
 
-.hatena-module-title a::after {
+.hatena-module-title a:after {
 	content: ">>more";
 	font-size: 14px;
 	position: absolute;
@@ -783,19 +777,16 @@ margin: 0;
 .hatena-module-body a .erg {
 	padding: 10px;
 	background: #fff;
-	
 	-webkit-transition: 0.4s ease-in-out;
 	-moz-transition: 0.4s ease-in-out;
 	-ms-transition: 0.4s ease-in-out;
 	-o-transition: 0.4s ease-in-out;
 	transition: 0.4s ease-in-out;
-	
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
 	-o-backface-visibility: hidden;
 	-ms-backface-visibility: hidden;
 	backface-visibility: hidden;
-	
 	-webkit-transform: rotateY(180deg);
 	transform: rotateY(180deg);
 	opacity: 0;
@@ -886,7 +877,6 @@ a.archive-module-year-title:hover, a.archive-module-month-title:hover, .archive-
 	box-shadow: inset 0px 1px 12px #666;
 	opacity: 0.8;
 }
-
 /* ------- ここまで ------ */
 
 /* Profile Design */
@@ -1024,7 +1014,7 @@ a.archive-module-year-title:hover, a.archive-module-month-title:hover, .archive-
 	width: 670px;
 }
 
-.pager::after {
+.pager:after {
 	content: " ";
 	display: block;
 	height: 0;
@@ -1032,11 +1022,11 @@ a.archive-module-year-title:hover, a.archive-module-month-title:hover, .archive-
 	clear: both;
 }
 
-.pager-next a::after {
+.pager-next a:after {
 	content: "  \25b6";
 }
 
-.pager-prev a::before {
+.pager-prev a:before {
 	content: "\25c0  ";
 }
 
@@ -1076,7 +1066,7 @@ a.archive-module-year-title:hover, a.archive-module-month-title:hover, .archive-
 }
 
 /* Archive Page */
-.page-archive #main-inner::before {
+.page-archive #main-inner:before {
 	content: "Archive";
 	display: block;
 	width: 630px;
@@ -1186,7 +1176,7 @@ a.archive-module-year-title:hover, a.archive-module-month-title:hover, .archive-
 	box-shadow: 0 0 0 5px #ecf0f1;
 }
 
-.page-about #main dt::before {
+.page-about #main dt:before {
 	content: "■ ";
 	color: #ce0c0c;
 }
@@ -1195,7 +1185,7 @@ a.archive-module-year-title:hover, a.archive-module-month-title:hover, .archive-
 	padding: 10px 20px;
 }
 
-.page-about #main .entry-content::before {
+.page-about #main .entry-content:before {
 	content: "About";
 	display: block;
 	width: 630px;
@@ -1218,7 +1208,7 @@ a.archive-module-year-title:hover, a.archive-module-month-title:hover, .archive-
 }
 
 /* height対応 */
-#content::after {
+#content:after {
 	content: " ";
 	display: block;
 	height: 0;
@@ -1262,3 +1252,8 @@ a.archive-module-year-title:hover, a.archive-module-month-title:hover, .archive-
 #blog-title, .date, .categories, #box2, .pager, .leave-comment-title, .entry-footer-section, #footer, .breadcrumb, .entry-header-menu, .page-archive-section h1, .page-archive #main p, .comment-user-name, .comment-metadata, .read-more-comments {
 	font-family: 'Simonetta',meiryo,sans-serif;
 }
+
+.page-archive-section h1 {
+	font-weight: normal !important;
+}
+
