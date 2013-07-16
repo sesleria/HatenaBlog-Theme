@@ -72,7 +72,7 @@ body {
 
 #wrapper {
     width: 800px;
-    margin: auto auto 50px auto;;
+    margin: auto auto 50px auto;
     position: relative;
     background: transparent;
 }
@@ -137,7 +137,7 @@ body {
     color: #000;
 }
 
-.breadcrumb div::before {
+.breadcrumb div:before {
 	content: "✱";
 }
 
@@ -384,7 +384,7 @@ a.keyword:hover {
     word-wrap: break-word;
 }
 
-.comment-content::after, .comment-content::before {
+.comment-content:after, .comment-content:before {
     bottom: 100%;
 	border: solid transparent;
 	content: " ";
@@ -394,14 +394,14 @@ a.keyword:hover {
 	pointer-events: none;
 }
 
-.comment-content::after {
+.comment-content:after {
 	border-bottom-color: #efefef;
 	border-width: 8px;
 	left: 20px;
 	margin-left: -8px;
 }
 
-.comment-content::before {
+.comment-content:before {
 	border-bottom-color: #bbb;
 	border-width: 9px;
 	left: 20px;
@@ -448,7 +448,7 @@ a.keyword:hover {
 
     overflow: hidden;
     color: #000;
-    background: #fff;
+    background: transparent;
 
     padding: 25px 40px;
     z-index: 6;
@@ -456,7 +456,7 @@ a.keyword:hover {
     cursor: pointer;
 }
 
-#container::before {
+#container:before {
     content: "➤";
     display: block;
     -webkit-user-select: none;
@@ -757,7 +757,7 @@ a.keyword:hover {
 	font-weight: 300;
 }
 
-.pager::after {
+.pager:after {
     content: " ";
     display: block;
     height: 0;
@@ -765,11 +765,11 @@ a.keyword:hover {
     clear: both;
 }
 
-.pager-next a::after {
+.pager-next a:after {
     content: "\25b6";
 }
 
-.pager-prev a::before {
+.pager-prev a:before {
     content: "\25c0";
 }
 
@@ -841,7 +841,7 @@ a.keyword:hover {
     color: #2d6bc4;
 }
 
-.page-archive #main .categories::before {
+.page-archive #main .categories:before {
     display: none;
 }
 
@@ -890,13 +890,13 @@ a.keyword:hover {
     margin-bottom: 10px;
 }
 
-.page-about #main dt::before {
+.page-about #main dt:before {
     content: "❦ ";
     color: #e3343a;
 }
 
 /* corresponding problem of height */
-#content::after {
+#content:after {
     content: " ";
     display: block;
     height: 0;
@@ -939,7 +939,7 @@ a.keyword:hover {
 }
 
 /* category icon */
-.page-index .categories::before , .page-entry .categories::before,.page-search .categories::before {
+.page-index .categories:before , .page-entry .categories:before,.page-search .categories:before {
     content: "";
 	display: inline-block;
 	width: 13px;

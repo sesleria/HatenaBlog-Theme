@@ -177,7 +177,7 @@ body {
     font-size: 80%;
 }
 
-.categories a::before {
+.categories a:before {
   content: '\25B8';
 }
 
@@ -430,11 +430,11 @@ a.keyword:hover {
     padding: 0.3em 0;
 }
 
-.hatena-urllist li::before {
+.hatena-urllist li:before {
   content: '\25B8';
 }
 
-.hatena-urllist .archive-module-year::before {
+.hatena-urllist .archive-module-year:before {
   content: '';
 }
 
@@ -527,7 +527,7 @@ a.keyword:hover {
 }
 
 /* corresponding problem of height */
-#content::after {
+#content:after {
     content: " ";
     display: block;
     height: 0;

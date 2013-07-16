@@ -137,7 +137,7 @@ body {
     color: #000;
 }
 
-.breadcrumb div::before {
+.breadcrumb div:before {
 	content: "✱";
 }
 
@@ -285,7 +285,7 @@ a.keyword:hover {
     font-size: 90%;
 }
 
-.entry-content blockquote::before {
+.entry-content blockquote:before {
     content: "“";
     font-family: serif;
     position: absolute;
@@ -296,7 +296,7 @@ a.keyword:hover {
     line-height: 1em;
 }
 
-.entry-content blockquote::after {
+.entry-content blockquote:after {
     content: "”";
     font-family: serif;
     position: absolute;
@@ -620,7 +620,7 @@ a.keyword:hover {
     background: #a04910;
 }
 
-.hatena-module-recent-entries li a::before, .hatena-module-links li a::before  {
+.hatena-module-recent-entries li a:before, .hatena-module-links li a:before  {
 	content: '\25B8  ';	
 }
 
@@ -675,7 +675,7 @@ a.keyword:hover {
 	width: 700px;
 }
 
-.pager::after {
+.pager:after {
     content: " ";
     display: block;
     height: 0;
@@ -683,11 +683,11 @@ a.keyword:hover {
     clear: both;
 }
 
-.pager-next a::after {
+.pager-next a:after {
     content: " \25b6";
 }
 
-.pager-prev a::before {
+.pager-prev a:before {
     content: "\25c0 ";
 }
 
@@ -758,7 +758,7 @@ a.keyword:hover {
     color: #195caa;
 }
 
-.page-archive #main .categories::before {
+.page-archive #main .categories:before {
     display: none;
 }
 
@@ -803,7 +803,7 @@ a.keyword:hover {
 	margin: 0 0 0.8em 10px;
 }
 
-.page-about #main dt::before {
+.page-about #main dt:before {
     content: "❦ ";
     color: #454545;
 }
@@ -813,7 +813,7 @@ a.keyword:hover {
 }
 
 /* height対応 */
-#content::after {
+#content:after {
     content: " ";
     display: block;
     height: 0;

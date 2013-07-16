@@ -145,7 +145,7 @@ body {
     color: #000;
 }
 
-.breadcrumb div::before {
+.breadcrumb div:before {
 	content: "✱";
 }
 
@@ -395,7 +395,7 @@ a.keyword:hover {
     word-wrap: break-word;
 }
 
-.comment-content::after, .comment-content::before {
+.comment-content:after, .comment-content:before {
     bottom: 100%;
 	border: solid transparent;
 	content: " ";
@@ -405,14 +405,14 @@ a.keyword:hover {
 	pointer-events: none;
 }
 
-.comment-content::after {
+.comment-content:after {
 	border-bottom-color: #efefef;
 	border-width: 8px;
 	left: 20px;
 	margin-left: -8px;
 }
 
-.comment-content::before {
+.comment-content:before {
 	border-bottom-color: #bbb;
 	border-width: 9px;
 	left: 20px;
@@ -467,7 +467,7 @@ a.keyword:hover {
     cursor: pointer;
 }
 
-#container::before {
+#container:before {
     content: "Info";
     display: block;
     -webkit-user-select: none;
@@ -624,7 +624,7 @@ a.keyword:hover {
 }
 
 
-.hatena-module-recent-entries .hatena-urllist li a::before, .hatena-module-links .hatena-urllist li a::before {
+.hatena-module-recent-entries .hatena-urllist li a:before, .hatena-module-links .hatena-urllist li a:before {
   content: '\25B8  ';
 }
 
@@ -752,7 +752,7 @@ a.keyword:hover {
 	margin: auto;
 }
 
-.pager::after {
+.pager:after {
     content: " ";
     display: block;
     height: 0;
@@ -760,11 +760,11 @@ a.keyword:hover {
     clear: both;
 }
 
-.pager-next a::after {
+.pager-next a:after {
     content: "\25b6";
 }
 
-.pager-prev a::before {
+.pager-prev a:before {
     content: "\25c0";
 }
 
@@ -836,7 +836,7 @@ a.keyword:hover {
     color: #2d6bc4;
 }
 
-.page-archive #main .categories::before {
+.page-archive #main .categories:before {
     display: none;
 }
 
@@ -875,14 +875,14 @@ a.keyword:hover {
     margin-bottom: 10px;
 }
 
-.page-about #main dt::before {
+.page-about #main dt:before {
     content: "❦ ";
     color: #e3343a;
 }
 
 
 /* corresponding problem of height */
-#content::after {
+#content:after {
     content: " ";
     display: block;
     height: 0;

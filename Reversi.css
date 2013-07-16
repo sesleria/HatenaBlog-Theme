@@ -178,7 +178,7 @@ body {
  /*   text-decoration: none; */
 }
 
-.categories::before {
+.categories:before {
     content: "Category : ";
     font-size: 80%;
 }
@@ -377,7 +377,7 @@ a.keyword:hover {
     color: #2d6bc4;
 }
 
-.comment-content::after, .comment-content::before {
+.comment-content:after, .comment-content:before {
 	bottom: 100%;
 	border: solid transparent;
 	content: " ";
@@ -387,14 +387,14 @@ a.keyword:hover {
 	pointer-events: none;
 }
 
-.comment-content::after {
+.comment-content:after {
 	border-bottom-color: #efefef;
 	border-width: 8px;
 	left: 20px;
 	margin-left: -8px;
 }
 
-.comment-content::before {
+.comment-content:before {
 	border-bottom-color: #bbb;
 	border-width: 9px;
 	left: 20px;
@@ -449,7 +449,7 @@ a.keyword:hover {
     background: #000;
 }
 
-#box2::before {
+#box2:before {
     content: "";
     width: 50px;
     height: 50px;
@@ -467,12 +467,12 @@ a.keyword:hover {
     z-index: 100;
 }
 
-#box2:hover::before {
+#box2:hover:before {
     opacity: 0;
 }
 
 
-#box2::after {
+#box2:after {
     content: " ";
     display: block;
     height: 0;
@@ -610,7 +610,7 @@ a.keyword:hover {
 }
 
 /*
-.pager-prev a::after {
+.pager-prev a:after {
     content: "\25b6";
 }*/
 
@@ -621,7 +621,7 @@ a.keyword:hover {
 }
 
 /*
-.pager-next a::before {
+.pager-next a:before {
     content: "\25c0";
 }*/
 
@@ -647,7 +647,7 @@ a.keyword:hover {
     color: #2d6bc4;
 }
 
-.page-archive #main .categories::before {
+.page-archive #main .categories:before {
     display: none;
 }
 
@@ -664,13 +664,13 @@ a.keyword:hover {
     margin-bottom: 10px;
 }
 
-.page-about #main dt::before {
+.page-about #main dt:before {
     content: "❦ ";
     color: #e3343a;
 }
 
 /* corresponding problem of height */
-#content::after {
+#content:after {
     content: " ";
     display: block;
     height: 0;
