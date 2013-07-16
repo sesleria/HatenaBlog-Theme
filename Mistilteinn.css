@@ -828,6 +828,65 @@ margin: 0;
 	opacity: 0.8;
 }
 
+/* comments */
+.hatena-module-recent-comments .hatena-module-body {
+	padding: 0;
+	color: #777;
+}
+
+.hatena-module-recent-comments .hatena-urllist li {
+	padding: 0;
+	position: relative;
+
+	-webkit-transition: 0.2s ease-in-out;
+	-moz-transition: 0.2s ease-in-out;
+	-ms-transition: 0.2s ease-in-out;
+	-o-transition: 0.2s ease-in-out;
+	transition: 0.2s ease-in-out;
+}
+
+.hatena-module-recent-comments .user-id {
+	display: block;
+	position: absolute;
+	left: 15px;
+	top: 10px;
+}
+
+.hatena-module-recent-comments .user-id img {
+	box-shadow: 0 0 0 2px #ecf0f1;
+	border-radius: 50%;
+}
+
+.hatena-module-recent-comments a {
+	display: block;
+	padding: 30px 0 10px 15px;
+	color: #3489bd;
+	border-bottom: solid 1px #ddd;
+}
+
+.hatena-module-recent-comments a:hover {
+	text-decoration: none;
+}
+
+.hatena-module-recent-comments .hatena-urllist li:hover {
+	background: #efefef;
+	box-shadow: inset 0px 1px 12px #666;
+	opacity: 0.8;
+}
+
+.hatena-module-recent-comments .hatena-urllist li > .recent-comment-time {
+	display: block;
+	position: absolute;
+	right: 15px;
+	top: 10px;
+	font-style: normal;
+	opacity: 1;
+}
+
+.hatena-module-recent-comments .hatena-urllist li:last-of-type a {
+	border-bottom: none;
+}
+
 /* ------- Archiveフラット化対応 ------- */
 .hatena-module-archive .hatena-module-body {
 	padding: 0;
