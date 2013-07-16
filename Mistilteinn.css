@@ -1198,6 +1198,10 @@ a.archive-module-year-title:hover, a.archive-module-month-title:hover, .archive-
 	font-family: 'Simonetta',meiryo,sans-serif;
 }
 
+.page-about .subscription-count {
+	display: block;
+}
+
 /* 404notfound */
 .no-entry .entry-content {
 	padding: 10px 20px;
