@@ -835,6 +835,11 @@ margin: 0;
 	position: absolute;
 	left: 15px;
 	top: 10px;
+
+	max-width: 210px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
 }
 
 .hatena-module-recent-comments .user-id img {
@@ -864,9 +869,14 @@ margin: 0;
 	position: absolute;
 	right: 15px;
 	top: 10px;
-	font-style: normal;
 	opacity: 1;
+	font-style: normal;
 }
+.hatena-module-recent-comments .hatena-urllist li > .recent-comment-time time {
+	font-style: normal;
+}
+
+
 
 .hatena-module-recent-comments .hatena-urllist li:last-of-type a {
 	border-bottom: none;
@@ -954,6 +964,10 @@ a.archive-module-year-title:hover, a.archive-module-month-title:hover, .archive-
 }
 
 /* Searchbox Design */
+.hatena-module-search-box {
+	margin-bottom: 0;
+}
+
 .hatena-module-search-box .hatena-module-title {
 	display: none;
 }
