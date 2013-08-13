@@ -256,6 +256,7 @@ a.keyword:hover {
 .entry-content blockquote {
     background: #ece4e8;
     padding: 15px;
+	margin: 0.8em 0;
 }
 
 .entry-content blockquote p {
