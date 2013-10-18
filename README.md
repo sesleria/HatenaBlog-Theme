@@ -15,8 +15,6 @@ Excaliburのカラム幅違い
 ちょっと変わったテーマ。
 ###Andante
 Giftのサイドバー表示関連を改善したテーマ
-###Meteor
-作成中のテーマ。Andanteをベースとして2カラムに変更。
 ###Module
 2カラムのモダンな感じのテーマ。
 ###Mistilteinn
