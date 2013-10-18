@@ -291,7 +291,7 @@ a.keyword:hover {
 }
 
 .entry-content blockquote {
-	padding: 20px 45px;
+	padding: 20px 55px;
 	background: #efefef;
 	background: rgba(245,245,245,0.8);
 	color: #333;
@@ -335,10 +335,11 @@ a.keyword:hover {
 .entry-content blockquote cite {
 	display: block;
 	text-align: right;
+	font-size: 80%;
 }
 
 .entry-content blockquote p {
-margin: 0;
+	margin: 0;
 }
 
 /* pre design */
@@ -765,6 +766,7 @@ margin: 0;
 
 /* For hentai game's banner */
 .hatena-module-body a .erg {
+	box-sizing: content-box !important;
 	padding: 10px;
 	background: #fff;
 	-webkit-transition: 0.4s ease-in-out;
@@ -1319,3 +1321,6 @@ a.archive-module-year-title:hover, a.archive-module-month-title:hover, .archive-
 	font-weight: normal !important;
 }
 
+.zenback-container * {
+    box-sizing: content-box !important;
+}

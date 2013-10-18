@@ -254,7 +254,7 @@ a.keyword:hover {
     margin: 1em 0 0.5em 0;
 }
 
-
+/*
 .entry-content blockquote {
     background: #e6d9e2;
     font-size: 90%;
@@ -264,6 +264,59 @@ a.keyword:hover {
 
 .entry-content blockquote p {
     margin: 0;
+}
+*/
+
+.entry-content blockquote {
+	padding: 20px 55px;
+	background: #efefef;
+	background: rgba(245,245,245,0.8);
+	color: #333;
+	position: relative;
+	border: solid 1px #fff; /* 背景が白以外のケース用 */
+	margin: 0.8em 0;
+}
+
+.entry-content blockquote p {
+	font-size: 90%;
+}
+
+.entry-content blockquote:before {
+	content: "“";
+	font-family: serif;
+	position: absolute;
+	top:0;
+	left:0;
+	font-size: 600%;
+	color: #c8c8c8;
+	color: rgba(200,200,200,1);
+	line-height: 1em;
+}
+
+.entry-content blockquote:after {
+	content: "”";
+	font-family: serif;
+	position: absolute;
+	bottom:0;
+	right:0;
+	font-size: 600%;
+	color: #c8c8c8;
+	color: rgba(200,200,200,1);
+	line-height: 0;
+}
+
+.entry-content blockquote img {
+	max-width: 100%;
+}
+
+.entry-content blockquote cite {
+	display: block;
+	text-align: right;
+	font-size: 80%;
+}
+
+.entry-content blockquote p {
+	margin: 0;
 }
 
 /* pre design */
@@ -276,6 +329,7 @@ a.keyword:hover {
 }
 
 /* super pre design */
+/*
 .entry-content pre.code {
     color: #fff;
     border: none;
@@ -283,7 +337,20 @@ a.keyword:hover {
     background: #222;
     font-size: 80%;
 }
+*/
 
+/* super pre design */
+.entry-content pre.code {
+	color: #333;
+	border: none;
+	padding: 20px;
+	background: #f6f6f2;
+	font-size: 85%;
+	margin: 0.8em 0;
+}
+
+
+/*
 .entry-content table {
     border-collapse: collapse;
     border: solid 1px #000;
@@ -305,13 +372,35 @@ a.keyword:hover {
     background: #fff;
 }
 
+*/
+
+.entry-content table {
+	border-collapse: collapse;
+	border: solid 1px #ddd;
+	margin: 0.8em 0;
+}
+
+.entry-content th {
+	background: #f5f5f5;
+	font-weight: bold;
+}
+
+.entry-content th, .entry-content td {
+	border: solid 1px #ddd;
+	padding: 5px 10px;
+}
+
+.entry-content td {
+	background: #fff;
+}
+
 .entry-content ul li {
     list-style-type: square;
-    margin-left: 40px;
+    margin-left: 30px;
 }
 .entry-content ol li {
     list-style-type: decimal;
-    margin-left: 40px;
+    margin-left: 30px;
 }
 
 .entry-content dl {
@@ -418,7 +507,7 @@ a.keyword:hover {
 	padding: 4px 8px;
 
 	color: #fff;
-	background: #d47c41;
+	background: #eaaa7f;
 
 	text-decoration: none;
 	text-align: center;
@@ -733,7 +822,7 @@ a.keyword:hover {
 
 .hatena-module-category li a {
 	display: inline-block;
-	background: #d47c41;
+	background: #da9466;
 	color: #fff;
 	padding: 0 6px;
 	line-height: 25px;
@@ -951,4 +1040,8 @@ a.keyword:hover {
 	background-size: contain;
 	padding-right: 2px;
 	opacity: 0.8;
+}
+
+.zenback-container * {
+    box-sizing: content-box !important;
 }
