@@ -401,15 +401,16 @@ a.keyword:hover {
     border: solid 1px #de741e;
 }
 
-.entry-content .hatena-asin-detail {
+.entry-content .hatena-asin-detail, .entry-content .itunes-embed {
 	background: #fff;
 	border: solid 1px #ddd;
 	padding: 15px 20px;
 }
 
-.entry-content .hatena-asin-detail li {
+.entry-content .hatena-asin-detail li, .entry-content .itunes-embed li {
     list-style-type: none;
     font-size: 95%;
+    margin: 0;
 }
 
 .entry-footer a {

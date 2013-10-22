@@ -367,13 +367,14 @@ a.keyword:hover {
     margin-left: 30px;
 }
 
-.entry-content .hatena-asin-detail {
+.entry-content .hatena-asin-detail, .entry-content .itunes-embed  {
 	padding: 15px 20px;
 }
 
-.entry-content .hatena-asin-detail li {
+.entry-content .hatena-asin-detail li, .entry-content .itunes-embed  li {
     list-style-type: none;
     font-size: 90%;
+	margin: 0;
 }
 
 .entry-content dl {
