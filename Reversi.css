@@ -801,5 +801,9 @@ a.keyword:hover {
 }
 
 .zenback-container * {
-    box-sizing: content-box !important;
+	-webkit-box-sizing: content-box !important;
+	-moz-box-sizing: content-box !important;
+	-ms-box-sizing: content-box !important;
+	-o-box-sizing: content-box !important;
+	box-sizing: content-box !important;
 }

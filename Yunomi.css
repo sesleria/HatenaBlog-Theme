@@ -500,6 +500,12 @@ a.keyword:hover {
 
 /* eroge bunner optimize */
 .hatena-module-body a .erg {
+	-webkit-box-sizing: content-box !important;
+	-moz-box-sizing: content-box !important;
+	-ms-box-sizing: content-box !important;
+	-o-box-sizing: content-box !important;
+	box-sizing: content-box !important;
+	
     display: block;
     margin: auto;
     border-radius: 5px;
@@ -712,5 +718,9 @@ a.keyword:hover {
 }
 
 .zenback-container * {
-    box-sizing: content-box !important;
+	-webkit-box-sizing: content-box !important;
+	-moz-box-sizing: content-box !important;
+	-ms-box-sizing: content-box !important;
+	-o-box-sizing: content-box !important;
+	box-sizing: content-box !important;
 }
