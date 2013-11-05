@@ -772,6 +772,10 @@ a.keyword:hover {
 
 /* For hentai game's banner */
 .hatena-module-body a .erg {
+	-webkit-box-sizing: content-box !important;
+	-moz-box-sizing: content-box !important;
+	-ms-box-sizing: content-box !important;
+	-o-box-sizing: content-box !important;
 	box-sizing: content-box !important;
 	padding: 10px;
 	background: #fff;
@@ -1328,5 +1332,9 @@ a.archive-module-year-title:hover, a.archive-module-month-title:hover, .archive-
 }
 
 .zenback-container * {
-    box-sizing: content-box !important;
+	-webkit-box-sizing: content-box !important;
+	-moz-box-sizing: content-box !important;
+	-ms-box-sizing: content-box !important;
+	-o-box-sizing: content-box !important;
+	box-sizing: content-box !important;
 }
