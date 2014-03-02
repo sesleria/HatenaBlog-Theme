@@ -758,11 +758,18 @@ a.keyword:hover {
 }
 
 .page-archive #main .entry-title {
-    font-size: 90%;
+    font-size: 120%;
     font-weight: normal;
     display: inline-block;
     margin-top: 10px;
     color: #195caa;
+}
+
+.page-archive #main .entry-description {
+    font-size: 100%;
+    font-weight: normal;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
 }
 
 .page-archive #main .categories:before {
