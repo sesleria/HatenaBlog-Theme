@@ -1,0 +1,1394 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Simonetta');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: normal;
+	font-size: 100%;
+}
+
+img {
+	border:none;
+}
+
+ol, ul{
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+body {
+	font-family: Meiryo, sans-serif;
+	color: #333;
+	background: #eaeaea;
+	font-size: 100%;
+}
+
+/* navigation design */
+#globalheader-container {
+	width: 100%;
+	color: #666;
+}
+
+#container {
+	width: 920px;
+	padding: 0 20px;
+	margin: 50px auto;
+}
+
+/* container design */
+#content {
+	width: 920px;
+	margin: 15px auto;
+	padding: 0;
+}
+
+#container a {
+	-webkit-transition: 0.2s ease-in-out;
+	-moz-transition: 0.2s ease-in-out;
+	-ms-transition: 0.2s ease-in-out;
+	-o-transition: 0.2s ease-in-out;
+	transition: 0.2s ease-in-out;
+}
+
+#container * {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#wrapper {
+	width: 700px;
+	background: transparent;
+	float: left;
+}
+
+.entry {
+	background: #fff;
+	position: relative;
+	margin-bottom: 20px;
+	/*
+	border-top: solid 12px #e7c632;
+	border-bottom: solid 12px #e7c632;	
+	*/
+}
+
+/* title design */
+#blog-title {
+	width: 920px;
+	text-align: left;
+	margin: 0 auto 15px;
+}
+
+#title {
+	font-size: 150%;
+	display: inline-block;
+}
+
+#title a {
+	color: #333;
+	text-shadow: 1px 1px 1px #fff;
+}
+
+#blog-description {
+	margin-top: 5px;
+	font-size: 90%;
+	display: block;
+}
+
+.header-image-enable #blog-title, .header-image-only #blog-title {
+	padding: 0;
+	background: #fff;
+	margin: 15px auto;
+}
+
+.header-image-enable #blog-title-inner {
+	padding: 70px;
+	background: #fff;
+}
+
+.header-image-enable #title {
+	text-align: center;
+	display: block;
+}
+
+.header-image-enable #blog-description {
+	text-align: center;
+	display: block;
+}
+
+/* breadcrumb design */
+.breadcrumb {
+	width: 920px;
+	margin: 0px auto;
+	height: 35px;
+}
+
+.breadcrumb div {
+	padding: 8px 20px;
+	width: 700px;
+	height: 35px;
+	background: #888;
+	color: #fff;
+}
+
+.breadcrumb a {
+	color: #fff;
+}
+
+.entry-header .date {
+	/*
+	position: absolute;
+	right: 20px;
+	bottom: 10px;
+	top: 25px; */
+}
+
+.date .hyphen {
+	display: none;
+}
+
+.date .date-month:before, .date .date-day:before {
+	content: " / ";
+}
+
+/* calender design */
+.date a {
+	font-size: 90%;
+}
+
+/* entry title design */
+.entry-title {
+	font-size: 135%;
+	font-weight: bold;
+	margin: 0.2em 0;
+	border-bottom: solid 4px #ddd;
+    
+    font-family: meiryo,serif;
+}
+
+.entry-title a {
+	color: #333;
+}
+
+.entry-header {
+	position: relative;
+	padding: 10px 20px;
+	/*
+	background: #777;
+	*/
+	color: #000;
+	margin-bottom: 1em;
+}
+
+.entry-header a {
+	color: #333;
+}
+
+/* edit button */
+.entry-header-menu a {
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 10px 20px;
+	text-align: center;
+	background-color: #e73d40;
+	font-size: 95%;
+	color: #fff;
+	border: dotted 1px #efefef;
+}
+
+.entry-header-menu a:hover {
+	text-decoration: none;
+	box-shadow: inset 0px 1px 12px #666;
+	text-shadow:  0 0 3px #000;
+	opacity: 0.8;
+}
+
+.categories {
+	width: 540px;
+	word-wrap: normal; /* for IE */
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+/* カテゴリ未設定の時に表示させない！ */
+.entry-header .no-categories {
+	display: block;
+	height: 21px;
+}
+
+.entry-header .categories a {
+/*
+	font-size: 70%;
+	display: inline-block;
+	padding: 3px 6px;
+	background: #777;
+	background: rgba(0,0,0,0.1); 
+	color: #fff; */
+
+	display: inline-block;
+	color: #000;
+	background: #fff;
+	padding: 3px 6px;
+	font-size: 70%;
+	border: dotted 1px #aaa;
+	border-radius: 3px;
+}
+.entry-header .categories a:hover {
+	text-decoration: none;
+	border: solid 1px #666;
+	background: #eee;
+}
+
+/* entry design */
+.entry-content {
+	line-height: 1.8;
+	font-size: 95%;
+	padding: 0px 20px 10px;
+}
+
+.entry-content p {
+	margin: 0.8em 0;
+}
+
+.entry-content a {
+	color: #2172af;
+}
+
+.entry-content a:hover {
+	text-decoration: underline;
+}
+
+a.keyword {
+	color: #333;
+	border-bottom: dotted 1px #ccc;
+}
+
+a.keyword:hover {
+	border-bottom: solid 1px #aaa;
+	text-decoration: none;
+}
+
+/*
+.entry-content h3, .entry-content h1, .entry-content h2 {
+	font-size: 130%;
+	font-weight: bold;
+	margin: 1em 0 0.5em 0;
+	padding: 4px 10px;
+	border-left: solid 10px #c0392b;
+	background: #fafafa;
+	background: rgba(250,250,250,1);
+}
+
+.entry-content h4 {
+	font-size: 120%;
+	font-weight: bold;
+	margin: 1em 0 0.5em 0;
+	padding: 2px 15px;
+	border-left: solid 5px #c0392b;
+	border-bottom: dashed 1px #c0392b;
+}
+
+.entry-content h5 {
+	font-size: 110%;
+	font-weight: bold;
+	margin: 1em 0 0.5em 0;
+	padding: 2px 0px;
+}
+*/
+
+.entry-content h3, .entry-content h1, .entry-content h2 {
+	font-size: 130%;
+	margin: 0 auto 0.8em;
+	border-bottom: dotted 1px #666;
+	font-weight: bold;
+}
+
+.entry-content h4 {
+	font-size: 120%;
+	margin: 0 auto 0.8em;
+	font-weight: bold;
+}
+
+.entry-content h4:before {
+	content: "■ ";
+	color: #ddd;
+	font-size: 100%;
+}
+
+.entry-content h5 {
+	font-weight: bold;
+	font-size: 110%;
+	margin: 0 auto 0.8em;
+}
+
+.entry-content blockquote {
+	padding: 20px 55px;
+	background: #efefef;
+	background: rgba(245,245,245,0.8);
+	color: #333;
+	position: relative;
+	border: solid 1px #fff; /* 背景が白以外のケース用 */
+	margin: 0.8em 0;
+}
+
+.entry-content blockquote p {
+	font-size: 90%;
+}
+
+.entry-content blockquote:before {
+	content: "“";
+	font-family: serif;
+	position: absolute;
+	top:0;
+	left:0;
+	font-size: 600%;
+	color: #c8c8c8;
+	color: rgba(200,200,200,1);
+	line-height: 1em;
+}
+
+.entry-content blockquote:after {
+	content: "”";
+	font-family: serif;
+	position: absolute;
+	bottom:0;
+	right:0;
+	font-size: 600%;
+	color: #c8c8c8;
+	color: rgba(200,200,200,1);
+	line-height: 0;
+}
+
+.entry-content blockquote img {
+	max-width: 100%;
+}
+
+.entry-content blockquote cite {
+	display: block;
+	text-align: right;
+	font-size: 80%;
+}
+
+.entry-content blockquote p {
+	margin: 0;
+}
+
+/* pre design */
+.entry-content pre {
+	color: #333;
+	border: solid 1px #ddd;
+	padding: 20px;
+	background: #fff;
+	font-size: 100%;
+	margin: 0.8em 0;
+}
+
+/* super pre design */
+.entry-content pre.code {
+	color: #333;
+	border: none;
+	padding: 20px;
+	background: #f6f6f2;
+	font-size: 80%;
+	margin: 0.8em 0;
+}
+
+.entry-content table {
+	border-collapse: collapse;
+	border: solid 1px #ddd;
+	margin: 0.8em 0;
+	font-size: 85%;
+}
+
+.entry-content th {
+	background: #f5f5f5;
+	font-weight: bold;
+}
+
+.entry-content th, .entry-content td {
+	border: solid 1px #ddd;
+	padding: 5px 10px;
+}
+
+.entry-content td {
+	background: #fff;
+}
+
+.entry-content > ul, .entry-content > ol {
+	margin: 0.8em 0;
+}
+
+.entry-content ul li {
+	list-style-type: disc;
+	margin-left: 30px;
+}
+.entry-content ol li {
+	list-style-type: decimal;
+	margin-left: 30px;
+}
+
+.entry-content dl {
+	margin: 0.8em 0;
+}
+
+.entry-content dt {
+	font-weight: bold;
+	margin-bottom: 0.2em;
+}
+
+.entry-content dd {
+	margin-left: 30px;
+	margin-bottom: 0.4em;
+}
+
+.entry-content img, .entry-content iframe, .entry-content embed { 
+	max-width: 100%;
+}
+
+.entry-content img.magnifiable, .entry-content img.hatena-fotolife { 
+	max-width: 100%;
+	box-shadow: 0 2px 3px 1px #eee;
+}
+
+.entry-content img.magnifiable:hover, .entry-content img.hatena-fotolife:hover { 
+	opacity: 0.8;
+}
+
+.entry-content .hatena-asin-detail, .entry-content .itunes-embed  {
+	background: #fff;
+	border: solid 1px #ddd;
+	padding: 15px 20px;
+}
+
+.entry-content .hatena-asin-detail li, .entry-content .itunes-embed  li {
+	list-style-type: none;
+	font-size: 95%;
+	margin: 0;
+}
+
+.entry-content .itunes-embed  li {
+	font-size: 100%;
+}
+
+
+.entry-footer {
+	padding: 10px 20px;
+	background: #999;
+	color: #fff;
+}
+
+.entry-footer a {
+	color: #fff;
+	font-size: 80%;
+}
+
+.fn {
+	font-size: 80%;
+}
+
+.entry-footer-section {
+	display: inline-block;
+}
+
+.hatena-star-container {
+	margin-left: 10px;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+.social-buttons {
+	margin: 0.8em 0;
+}
+
+/* コメント */
+.comment-box ul {
+	list-style: none;
+	margin: 0 0 15px 0;
+	padding: 0;
+	font-size: 95%;
+	line-height: 1.7;
+}
+
+.comment-box .comment > li {
+	padding: 10px 0 10px 90px;
+	border-bottom: 1px solid #dddddd;
+	position: relative;
+}
+
+.comment-box .comment > li:first-child {
+	border-top: 1px solid #dddddd;
+}
+
+.comment-box .hatena-id-icon {
+	position: absolute;
+	top: 10px;
+	left: 0;
+	width: 64px !important;
+	height: 64px !important;
+	
+	border-radius: 50%;
+	box-shadow: 0 0 0 5px #ecf0f1;
+	
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+}
+
+.comment-user-name {
+	margin: 0 0 10px 0;
+	font-weight: normal;
+}
+
+.comment-metadata {
+	font-size: 80%;
+	margin: 0;
+}
+
+.comment-box .comment .read-more-comments {
+	padding: 0;
+}
+
+.comment-box .comment .read-more-comments a {
+	display: block;
+	padding: 10px 0;
+}
+
+.comment-box .read-more-comments a:hover {
+	background: #666;
+	box-shadow: inset 0px 1px 12px #666;
+	opacity: 0.8;
+}
+
+/* コメント欄はてな記法対応 */
+.comment-content {
+	font-size: 90%;
+	margin: 0 0 10px 0;
+	word-wrap: break-word;
+}
+.comment-content p {
+	margin: 0.8em 0;
+}
+
+.comment-content img {
+	max-width: 100%;
+}
+
+.comment-content h3 {
+	margin: 1em 0 0.5em 0;
+	font-size: 130%;
+	font-weight: bold;
+	padding: 4px 10px;
+	border-left: solid 10px #c0392b;
+	background: #fafafa;
+	background: rgba(250,250,250,1);
+}
+.comment-content h4 {
+	margin: 1em 0 0.5em 0;
+	font-size: 120%;
+	font-weight: bold;
+	padding: 2px 15px;
+	border-left: solid 5px #c0392b;
+	border-bottom: dashed 1px #c0392b;
+ }
+ 
+.comment-content h5 {
+	margin: 1em 0 0.5em 0;
+	font-size: 110%;
+	font-weight: bold;
+}
+
+.comment-content h5:before {
+	content: "■ ";
+	color: #bf392b;
+}
+
+.comment-content blockquote {
+	padding: 20px 45px;
+	background: rgba(245,245,245,0.8);
+	color: #333;
+	position: relative;
+	border: solid 1px #fff; /* 背景が白以外のケース用 */
+	margin: 0.8em 0;
+}
+
+.comment-content blockquote p {
+	font-size: 90%;
+}
+
+.comment-content blockquote:before {
+	content: "“";
+	font-family: serif;
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 600%;
+	color: rgba(200,200,200,1);
+	line-height: 1em;
+}
+
+.comment-content blockquote:after {
+	content: "”";
+	font-family: serif;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	font-size: 600%;
+	color: rgba(200,200,200,1);
+	line-height: 0;
+}
+
+.comment-content blockquote cite {
+	display: block;
+	text-align: right;
+}
+
+.comment-content blockquote p {
+	margin: 0;
+}
+
+.comment-content pre {
+	color: #333;
+	border: none;
+	padding: 20px;
+	background: #f6f6f2;
+	font-size: 100%;
+	margin: 0.8em 0;
+}
+
+.comment-content table {
+	border-collapse: collapse;
+	border: solid 1px #ddd;
+	margin: 0.8em 0;
+}
+
+.comment-content th {
+	background: #f5f5f5;
+	font-weight: bold;
+}
+
+.comment-content th, .comment-content td {
+	border: solid 1px #ddd;
+	padding: 5px 10px;
+}
+
+.comment-content td {
+	background: #fff;
+}
+
+.comment-content > ul, .comment-content > ol {
+	margin: 0.8em 0;
+}
+
+.comment-content ul li {
+	list-style-type: disc;
+	margin-left: 30px;
+}
+.comment-content ol li {
+	list-style-type: decimal;
+	margin-left: 30px;
+}
+
+.comment-content dl {
+	margin: 0.8em 0;
+}
+
+.comment-content dt {
+	font-weight: bold;
+	margin-bottom: 0.2em;
+}
+
+.comment-content dd {
+	margin-left: 30px;
+	margin-bottom: 0.4em;
+}
+
+.comment-content img, .comment-content iframe, .comment-content embed { 
+	max-width: 100%;
+}
+
+.comment-content img { 
+	max-width: 100%;
+	border: solid 1px #ddd;
+	padding: 5px;
+	background: #efefef;
+}
+
+.entry-footer .comment-box {
+	margin: 0.8em 0;
+}
+
+.entry-footer .leave-comment-title {
+	display: block;
+	padding: 8px 0;
+	text-decoration: none;
+	text-align: center;
+	font-size: 90%;
+	white-space: nowrap;
+	border: dashed 1px #ccc;
+}
+
+.entry-footer .leave-comment-title:hover {
+	border: solid 1px #999;
+	box-shadow: inset 0px 1px 15px #333;
+	text-shadow:  0 0 3px #000;
+	opacity: 0.8;
+}
+
+/* common sidebar */
+#box2 {
+	width: 200px;
+	height: auto;
+	float: right;
+	position: relative;
+}
+
+.hatena-module {
+	width: 200px;
+	padding: 10px;
+	background: #fff;
+	border-top: solid 12px #80c8e9;
+	border-bottom: solid 12px #80c8e9;
+	margin-bottom: 20px;
+	font-size: 90%;
+}
+
+.hatena-module a {
+	color: #2172af;
+}
+
+.hatena-module a:hover {
+	text-decoration: underline;
+}
+
+.hatena-module-title {
+	font-size: 120%;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: dashed 1px #555;
+}
+
+/* archiveリンク対応 */
+.hatena-module-title a {
+	position: relative;
+	display: block;
+}
+
+.hatena-module-title a:hover {
+	text-decoration: underline;
+}
+
+.hatena-module-body {
+	font-size: 90%;
+}
+
+/* For hentai game's banner */
+.hatena-module-body a .erg {
+	-webkit-box-sizing: content-box !important;
+	-moz-box-sizing: content-box !important;
+	-ms-box-sizing: content-box !important;
+	-o-box-sizing: content-box !important;
+	box-sizing: content-box !important;
+	padding: 10px;
+	background: #fff;
+	-webkit-transition: 0.4s ease-in-out;
+	-moz-transition: 0.4s ease-in-out;
+	-ms-transition: 0.4s ease-in-out;
+	-o-transition: 0.4s ease-in-out;
+	transition: 0.4s ease-in-out;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+	opacity: 0;
+}
+
+.hatena-module-body a .ergview {
+	-webkit-transform: rotateY(0deg);
+	transform: rotateY(0deg);
+	opacity: 1;
+}
+
+.hatena-module-body:hover a .erg {
+	opacity: 0.8;
+}
+
+/* archive & link */
+.hatena-module-recent-entries .hatena-module-body, .hatena-module-links .hatena-module-body {
+	padding: 0;
+}
+
+.hatena-module-recent-entries .hatena-urllist li a, .hatena-module-links .hatena-urllist li a {
+	display: block;
+	padding: 7px 0;
+	border-bottom: dashed 1px #555;
+}
+
+.hatena-module-links .hatena-urllist li a {
+	text-align: center;
+}
+
+.hatena-module-recent-entries .hatena-urllist li:first-of-type a, .hatena-module-links .hatena-urllist li:first-of-type a {
+	padding: 0 0 7px;
+}
+
+.hatena-module-recent-entries .hatena-urllist li:last-of-type a, .hatena-module-links .hatena-urllist li:last-of-type a {
+	margin-bottom: 10px;
+}
+
+
+.hatena-module-recent-entries .hatena-urllist li a:hover, .hatena-module-links .hatena-urllist li a:hover{
+	text-decoration: underline;
+}
+
+/* comments */
+.hatena-module-recent-comments .hatena-module-body {
+	padding: 0;
+	color: #777;
+}
+
+.hatena-module-recent-comments .hatena-urllist li {
+	position: relative;
+
+	-webkit-transition: 0.2s ease-in-out;
+	-moz-transition: 0.2s ease-in-out;
+	-ms-transition: 0.2s ease-in-out;
+	-o-transition: 0.2s ease-in-out;
+	transition: 0.2s ease-in-out;
+}
+
+.hatena-module-recent-comments .user-id {
+	display: block;
+	position: absolute;
+	left: 15px;
+	top: 10px;
+
+	max-width: 210px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.hatena-module-recent-comments .user-id img {
+	box-shadow: 0 0 0 2px #ecf0f1;
+	border-radius: 50%;
+}
+
+.hatena-module-recent-comments a {
+	display: block;
+	padding: 30px 0 10px 15px;
+	color: #3489bd;
+	border-bottom: solid 1px #ddd;
+}
+
+.hatena-module-recent-comments a:hover {
+	text-decoration: none;
+}
+
+.hatena-module-recent-comments .hatena-urllist li:hover {
+	background: #efefef;
+	box-shadow: inset 0px 1px 12px #666;
+	opacity: 0.8;
+}
+
+.hatena-module-recent-comments .hatena-urllist li > .recent-comment-time {
+	display: block;
+	position: absolute;
+	right: 15px;
+	top: 10px;
+	opacity: 1;
+	font-style: normal;
+}
+.hatena-module-recent-comments .hatena-urllist li > .recent-comment-time time {
+	font-style: normal;
+}
+
+.hatena-module-recent-comments .hatena-urllist li:last-of-type a {
+	border-bottom: none;
+}
+
+/* ------- Archiveフラット化対応 ------- */
+.archive-module-year {
+	position: relative;
+}
+
+.archive-module-button {
+	position: absolute;
+	width: 22px;
+	height: 22px;
+	line-height: 22px;
+	background: #fff;
+	text-align: center;
+	cursor: pointer;
+	
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+.archive-module-month {
+	margin: 0 !important;
+}
+
+.archive-module-year-title, .archive-module-month-title {
+	display: block;
+	padding-left: 39px;
+	border-bottom: dotted 1px #ddd;
+	height: 22px;
+	line-height: 22px;
+}
+
+.archive-module-year-title {
+	padding-left: 10px;
+	margin-left: 29px;
+}
+
+a.archive-module-year-title:hover, a.archive-module-month-title:hover {
+	background: #eee;
+	text-decoration: none;
+}
+/* ------- ここまで ------ */
+
+.profile-icon:hover {
+	box-shadow: 0 0 0 5px #c45666 !important;
+}
+
+.id {
+	font-size: 100%;
+	display: block;
+	text-align: center;
+}
+
+/* original */
+.hatena-module-profile .profile-icon {
+	border-radius: 50%;
+	box-shadow: 0 0 0 5px #eee;
+	display: block;
+	margin: 15px 25px;
+	width: 128px;
+	height: 128px;
+}
+
+.hatena-module-profile .profile-icon:hover {
+	opacity: 0.7;
+}
+
+.profile-description {
+	margin: 0.8em 0;
+	text-align: left;
+	line-height: 1.5;
+}
+
+/* Searchbox Design */
+.hatena-module-search-box .hatena-module-title {
+
+}
+.search-form {
+	position: relative;
+}
+
+.search-module-input {
+	width: 100%;
+	height: 25px;
+	padding: 3px 5px;
+	border: solid 1px #ddd;
+	vertical-align: middle;
+	border-radius: 3px;
+}
+
+.search-module-input:focus {
+	background: #fff;
+}
+
+.search-module-button {
+		width: 19px;
+		height: 19px;
+		color: transparent;
+		border: none;
+		cursor: pointer;
+		background: url(http://img.f.hatena.ne.jp/images/fotolife/p/platism/20130711/20130711002432.gif) no-repeat;
+		background-size:contain;
+		opacity: 0.5;
+		
+		position: absolute;
+		right: 4px;
+		bottom: 3px;
+}
+
+.search-module-button:hover {
+	opacity: 0.7;
+}
+
+.archive-module-month {
+	list-style-type: none !important;
+}
+
+/* Category Cloud */
+.hatena-module-category li  {
+	display: inline-block;
+	margin-bottom: -2px;
+}
+
+.hatena-module-category li a {
+	display: inline-block;
+	display: block;
+	float: left;
+	color:#000;
+	background: #fff;
+	padding: 0 6px;
+	line-height: 23px;
+	height: 23px;
+	font-size: 75%;
+	border: dotted 1px #555;
+	max-width: 100%;
+	word-wrap: normal; /* for IE */
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.hatena-module-category li a:hover {
+	border: solid 1px #555;
+	background: #eee;
+	text-decoration: none;
+}
+
+.hatena-module-category .hatena-urllist li {
+	padding: 0.1em 0;
+}
+
+.hatena-module-archive .hatena-module-body {
+	font-size: 100%;
+}
+
+/* Pager Button */
+.pager {
+	width: 700px;
+}
+
+.pager:after {
+	content: " ";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+
+.pager-next a:after {
+	content: "  \25b6";
+}
+
+.pager-prev a:before {
+	content: "\25c0  ";
+}
+
+/* 仕様変更対応(2014/3/3) */
+.pager-arrow {
+	display: none;
+}
+
+.page-entry .pager-next a,.page-entry .pager-prev a, .page-archive .pager-next a, .page-archive .pager-prev a {
+	display: block;
+	width: 350px;
+	text-align: center;
+	float: left;
+	margin: auto;
+	background: #df6f63;
+	padding: 10px;
+	font-size: 90%;
+	color: #fff;
+
+}
+
+.page-entry .pager-next a, .page-archive .pager-next a {
+	float: right;
+}
+
+/* Index-Page */
+.page-index .pager-next a , .page-search .pager-next a , .page-category-category_name .pager-next a, .page-entries-year-month-day .pager-next a {
+	display: block;
+	width: 700px;
+	text-align: center;
+	margin: auto;
+	background: #df6f63;
+	padding: 10px;
+	font-size: 90%;
+	color: #fff;
+}
+
+.pager-next a:hover, .pager-prev a:hover {
+	text-decoration: none;
+	box-shadow: inset 0px 1px 12px #666;
+	text-shadow:  0 0 3px #000;
+	opacity: 0.8;
+}
+
+/* Archive Page */
+.page-archive #main-inner:before {
+	content: "Archive";
+	display: block;
+	width: 660px;
+	margin-left: -20px;
+	margin-top: -10px;
+	padding: 10px 20px;
+	background: #777;
+	color: #fff;
+	font-size: 120%;
+	font-family: 'Simonetta',meiryo,serif;
+	margin-bottom: 10px;
+}
+
+
+.page-archive #main-inner {
+	padding: 10px 20px;
+	background: #fff;
+	position: relative;
+	margin-bottom: 15px;
+}
+
+.page-archive #main-inner .page-archive-section:first-of-type {
+	margin-top: 20px;
+}
+
+.page-archive #main-inner .page-archive-section {
+	position: relative;
+}
+
+.page-archive #main-inner a {
+	color: #333;
+}
+
+.page-archive #main p {
+	font-size: 90%;
+	color: #333;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.page-archive #main .entry-title {
+	font-size: 110%;
+	font-weight: normal;
+	display: inline-block;
+	margin-top: 10px;
+	color: #3489bd;
+    border-bottom: none;
+}
+
+.page-archive section {
+	margin-bottom: 10px;
+}
+
+.page-archive #main .entry-description {
+	margin: 0.2em 0;
+}
+.page-archive #main .categories {
+	margin: 0 0 0.5em;
+}
+
+.archive-entry {
+	border-bottom: solid 1px #ddd;
+	padding-bottom: 15px;
+	margin-bottom: 15px !important;
+}
+.page-archive #main section h1 {
+	font-weight: bold;
+	font-size: 90%;
+	color: #333;
+	margin-bottom: 0.4em
+}
+
+.page-archive #main section li {
+	margin-bottom: 0.8em;
+	border-bottom: solid 1px #ddd;
+	padding-bottom: 0.4em; 
+}
+
+.page-archive #main .categories a {
+	display: inline-block;
+	color: #000;
+	background: #fff;
+	padding: 0 6px;
+	line-height: 23px;
+	height: 23px;
+	font-size: 75%;
+	border: dotted 1px #666;
+}
+
+.page-archive #main .categories a:hover {
+	border: solid 1px #4ba2db;
+	background: #4ba2db;
+	color: #fff;
+	text-decoration: none;
+}
+
+.page-archive #main .categories {
+	display: block;
+}
+
+.page-archive #main li:first-of-type .categories {
+	position: absolute;
+	top: -4px;
+	left: 90px;
+}
+
+.page-archive #main li:not(:first-of-type) .categories {
+	position: relative;
+	left: 90px;
+}
+
+/* about */
+.page-about #main dt {
+	padding: 0 0 0.4em;
+	margin: 0 0 0.4em 0;
+	border-bottom: solid 1px #ddd;
+}
+
+.page-about #main dd {
+	margin: 0 0 0.8em 10px;
+}
+
+.page-about #main img {
+	width: 50px;
+	height: 50px;
+	margin-top: 5px;
+	margin-right: 10px;
+	border-radius: 50%;
+	box-shadow: 0 0 0 5px #ecf0f1;
+}
+
+.page-about #main dt:before {
+	content: "■ ";
+	color: #ce0c0c;
+}
+
+.page-about #main .entry-content {
+	padding: 10px 20px;
+}
+
+.page-about #main .entry-content:before {
+	content: "About";
+	display: block;
+	width: 660px;
+	margin-left: -20px;
+	margin-top: -10px;
+	padding: 10px 20px;
+	background: #777;
+	color: #fff;
+	font-size: 120%;
+	font-family: 'Simonetta',meiryo,serif;
+}
+
+.page-about .subscription-count {
+	display: block;
+}
+
+/* 404notfound */
+.no-entry .entry-content {
+	padding: 10px 20px;
+}
+
+.no-entry .entry-content h1 {
+	margin: 0.5em 0;
+}
+
+/* height対応 */
+#content:after {
+	content: " ";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+
+/* footer */
+#footer {
+	clear: both;
+	text-align: center;
+	padding: 10px;
+	font-size: 80%;
+	z-index: 4;
+}
+
+#footer a {
+	color: #333;
+	text-shadow: 0 0 1px #fff;
+	-webkit-transition: 0.2s ease-in-out;
+	-moz-transition: 0.2s ease-in-out;
+	-ms-transition: 0.2s ease-in-out;
+	-o-transition: 0.2s ease-in-out;
+	transition: 0.2s ease-in-out;
+}
+
+#footer a:hover {
+	text-decoration: underline;
+}
+
+#footer img {
+	border-radius: 50%;
+	vertical-align: middle;
+}
+
+#footer address {
+	display: inline-block;
+}
+
+#footer .services {
+	margin-left: 10px;
+	display: inline-block;
+}
+
+#top-editarea, #bottom-editarea {
+	width: 985px;
+	margin: 0 auto;
+}
+
+/* WebFont指定 */
+#blog-title, .date, .categories, #box2, .pager, .leave-comment-title, .entry-footer-section, #footer, .breadcrumb, .entry-header-menu, .page-archive-section h1, .page-archive #main p, .comment-user-name, .comment-metadata, .read-more-comments {
+	font-family: 'Simonetta',meiryo,sans-serif;
+}
+
+.page-archive-section h1 {
+	font-weight: normal !important;
+}
+
+.zenback-container * {
+	-webkit-box-sizing: content-box !important;
+	-moz-box-sizing: content-box !important;
+	-ms-box-sizing: content-box !important;
+	-o-box-sizing: content-box !important;
+	box-sizing: content-box !important;
+}
+
+.hatena-module, .entry-inner, .pager-next a, .pager-prev a, .page-archive #main-inner, .header-image-enable #blog-title-inner, .header-image-only #blog-title-inner, .breadcrumb div, .erg {
+	overflow: hidden;
+}
+
+.entry, .hatena-module {
+    opacity: 1;
+}
+
+.post-show {
+	opacity: 1;
+}
